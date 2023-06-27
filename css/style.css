@@ -23,12 +23,73 @@ header{
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     width: 70%;
-    padding-left: 260px;
+    padding-left: 100px;
     padding-top: 15px;
     padding-bottom: 15px;
     margin-left: 15%;
     margin-top: 30px;
+    margin-bottom: 5px;
     background-color: white;
-    
+
 }
 
+
+.bullet{
+    width: 70%;
+    margin-left: 15%;
+    padding-left: 100px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.part{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.editorial{
+    color: white;
+    background-color: skyblue;
+    border-radius: 15px;
+    margin: 5px;
+    padding: 6px;
+}
+
+.q1{
+    color: white;
+    background-color: rgb(151, 41, 151);
+    border-radius: 15px;
+    margin: 5px;
+    padding: 6px;
+}
+.recruiting{
+    color: white;
+    background-color: rgb(41, 151, 65);
+    border-radius: 15px;
+    margin: 5px;
+    padding: 6px;
+}
+.mobile{
+    color: white;
+    background-color: orange;
+    border-radius: 15px;
+    margin: 5px;
+    padding: 6px;
+}
+.web{
+    color: white;
+    background-color: rgb(255, 135, 255);
+    border-radius: 15px;
+    margin: 5px;
+    padding: 6px;
+}
+.sales{
+    color: white;
+    background-color: rgb(85, 151, 41);
+    border-radius: 15px;
+    margin: 5px;
+    padding: 6px;
+}
