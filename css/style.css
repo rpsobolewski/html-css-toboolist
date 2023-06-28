@@ -113,3 +113,27 @@ header{
     margin: 5px;
     padding: 6px;
 }
+
+.icon
+{
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  line-height: 1rem;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 0.7rem;
+}
+
+.check
+{
+  border: 1px solid green;
+  color: green;
+}
+
+.cross
+{
+  border: 1px solid red;
+  color: red;
+}
+
