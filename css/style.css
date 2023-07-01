@@ -1,45 +1,60 @@
-*{
+* {
     margin: 0;
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: rgb(236, 236, 236);
 
 }
 
-header{
+header {
     background-color: white;
     padding: 20px;
 }
 
-.first{
-    background-color: skyblue;
-    border-color: skyblue;
-    border-radius: 5px;
-    color: white;
-    padding: 7px;
-    font-size: 16px;
-}
 
-.second{
-    background-color: white;
-    border-color: lightgray;
-    border-radius: 5px;
-    color:lightgray;
-    padding: 7px;
-    font-size: 16px;
-    margin: 5px;
-}
-
-
-.title{
+.title {
     font-size: 300%;
     font-weight: 600;
 }
 
-.button{
+
+
+
+h2 {
+    margin-bottom: 15px;
+}
+
+
+.list {
+    width: 70%;
+    margin-left: 15%;
+    padding-left: 100px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.part {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.bubble {
+    color: white;
+    border-radius: 15px;
+    margin: 3px;
+    padding: 5px;
+    font-size: 10px;
+
+    /*buttonns*/
+}
+
+.button {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     width: 70%;
@@ -53,87 +68,77 @@ header{
 
 }
 
-
-.bullet{
-    width: 70%;
-    margin-left: 15%;
-    padding-left: 100px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    background-color: white;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-}
-
-.part{
-    padding-top: 15px;
-    padding-bottom: 15px;
-}
-
-.editorial{
-    color: white;
+.first {
     background-color: skyblue;
-    border-radius: 15px;
-    margin: 5px;
-    padding: 6px;
+    border-color: skyblue;
+    border-radius: 5px;
+    color: white;
+    padding: 7px;
+    font-size: 16px;
 }
 
-.q1{
-    color: white;
-    background-color: rgb(151, 41, 151);
-    border-radius: 15px;
+.second {
+    background-color: white;
+    border-color: lightgray;
+    border-radius: 5px;
+    color: lightgray;
+    padding: 7px;
+    font-size: 16px;
     margin: 5px;
-    padding: 6px;
-}
-.recruiting{
-    color: white;
-    background-color: rgb(41, 151, 65);
-    border-radius: 15px;
-    margin: 5px;
-    padding: 6px;
-}
-.mobile{
-    color: white;
-    background-color: orange;
-    border-radius: 15px;
-    margin: 5px;
-    padding: 6px;
-}
-.web{
-    color: white;
-    background-color: rgb(255, 135, 255);
-    border-radius: 15px;
-    margin: 5px;
-    padding: 6px;
-}
-.sales{
-    color: white;
-    background-color: rgb(85, 151, 41);
-    border-radius: 15px;
-    margin: 5px;
-    padding: 6px;
 }
 
-.icon
-{
-  display: inline-block;
-  width: 1rem;
-  height: 1rem;
-  line-height: 1rem;
-  text-align: center;
-  border-radius: 50%;
-  font-size: 0.7rem;
+/* bubbles*/
+.editorial {
+
+    background-color: skyblue;
+
 }
 
-.check
-{
-  border: 1px solid green;
-  color: green;
+.q1 {
+
+    background-color: #9C72E4;
+
 }
 
-.cross
-{
-  border: 1px solid red;
-  color: red;
+.recruiting {
+
+    background-color: #64C0A9;
+
 }
 
+.mobile {
+    background-color: #F29E33;
+
+}
+
+.web {
+
+    background-color: #D863A0;
+}
+
+.sales {
+
+    background-color: #B0C926;
+
+}
+
+/*icons */
+.icon {
+    display: inline-block;
+    width: 1.2rem;
+    height: 1.2rem;
+    line-height: 1.2rem;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 1rem;
+}
+
+.check {
+    border: 1px solid green;
+    color: green;
+}
+
+.cross {
+    border: 1px solid red;
+    color: red;
+}
